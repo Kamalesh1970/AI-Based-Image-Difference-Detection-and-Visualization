@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+data/temp/*
+data/output/*
+!data/temp/.gitkeep
+!data/output/.gitkeep
+logs/
+*.log
+.pytest_cache/
+.coverage
+runs/
+*.pt
+!models/.gitkeep
+.streamlit/
+.DS_Store

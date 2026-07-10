@@ -1,0 +1,39 @@
+# AI-Powered CAD Revision Analyzer — dependencies
+# Core CV / numerics
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+scikit-image>=0.22.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# PDF handling
+PyMuPDF>=1.24.0
+
+# OCR
+pytesseract>=0.3.10
+
+# Text similarity
+python-Levenshtein>=0.25.0
+
+# Object detection
+ultralytics>=8.2.0
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Config / data
+PyYAML>=6.0.1
+
+# Frontend
+streamlit>=1.35.0
+pandas>=2.2.0
+Pillow>=10.3.0
+
+# Testing
+pytest>=8.2.0
+pytest-cov>=5.0.0
+
+# NOTE: Tesseract OCR is a system-level binary and is NOT installable via pip.
+# Install it separately:
+#   Ubuntu/Debian: sudo apt-get install tesseract-ocr
+#   macOS (brew):  brew install tesseract
+#   Windows:       https://github.com/UB-Mannheim/tesseract/wiki
